@@ -5,21 +5,21 @@ DB = mongodb
 React+Apollo(Server/Client)+Graphql.
 
 ## installation
-cd server
-npm install
-cd client
-npm install
+cd server<br/>
+npm install<br/>
+cd client<br/>
+npm install<br/>
 
 ## DB Start.
-cd server
+cd server<br/>
 mongod --dbpath ./data
 
 ## ServerStart
-cd server
-npm start
+cd server<br/>
+npm start<br/>
 
 ## ClientStart
-cd client
-npm start
+cd client<br/>
+npm start<br/>
 
-##visit localhost:3000
+##visit localhost:3000<br/>
