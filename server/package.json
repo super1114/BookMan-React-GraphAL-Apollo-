@@ -1,0 +1,19 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js",
+    "db": "mongod --dbpath ./data"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.25.1",
+    "bcrypt": "^5.0.1",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.12.13"
+  }
+}
